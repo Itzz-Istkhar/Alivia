@@ -83,23 +83,35 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv(
-    "START_IMG_URL", "https://i.ibb.co/k3cw8XS/IMG-20250103-174108-968.jpg"
-)
-PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://i.ibb.co/h9XdzGp/IMG-20250103-174105-243.jpg"
-)
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://i.ibb.co/h9XdzGp/IMG-20250103-174105-243.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+START_IMG_URL = ["https://files.catbox.moe/x5lytj.jpg",
+                 "https://files.catbox.moe/psya34.jpg",
+                 "https://files.catbox.moe/leaexg.jpg",
+                 "https://files.catbox.moe/b0e4vk.jpg",
+                 "https://files.catbox.moe/1b1wap.jpg",
+                 "https://files.catbox.moe/ommjjk.jpg",
+                 "https://files.catbox.moe/onurxm.jpg",
+                 "https://files.catbox.moe/97v75k.jpg",
+                 "https://files.catbox.moe/t833zy.jpg",
+                 "https://files.catbox.moe/472piq.jpg",
+                 "https://files.catbox.moe/qwjeyk.jpg",
+                 "https://files.catbox.moe/t0hopv.jpg",
+                 "https://files.catbox.moe/u5ux0j.jpg",
+                 "https://files.catbox.moe/h1yk4w.jpg",
+                 "https://files.catbox.moe/gl5rg8.jpg"]
 
+PING_IMG_URL = getenv(
+    "PING_IMG_URL", "https://files.catbox.moe/nx6uds.jpg"
+)
+PLAYLIST_IMG_URL = "https://files.catbox.moe/nx6uds.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/nx6uds.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/492a3bb2e880d19750b79.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/492a3bb2e880d19750b79.jpg"
+STREAM_IMG_URL = "https://graph.org/file/ff2af8d4d10afa1baf49e.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/e8730fdece86a1166f608.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/0bb6f36796d496b4254ff.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/0bb6f36796d496b4254ff.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/0bb6f36796d496b4254ff.jpg"
 
 def time_to_seconds(time):
     stringt = str(time)
